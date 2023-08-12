@@ -11,14 +11,7 @@ body {
   height: 100%;
   background: url('background.jpg') no-repeat center center fixed;
   background-size: cover;
-  animation: moveBackground 60s linear infinite;
-}
-
-@keyframes moveBackground {
-  0% { transform: translateX(0) }
-  100% { transform: translateX(-100%) }
-}
-
+  
 /* Add styles for stars, sun, and planets here */
 
 .login-container {
