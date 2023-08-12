@@ -1,0 +1,61 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  overflow: hidden;
+}
+
+.background {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background: url('background.jpg') no-repeat center center fixed;
+  background-size: cover;
+  animation: moveBackground 60s linear infinite;
+}
+
+@keyframes moveBackground {
+  0% { transform: translateX(0) }
+  100% { transform: translateX(-100%) }
+}
+
+/* Add styles for stars, sun, and planets here */
+
+.login-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  background: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.login-container h2 {
+  margin-bottom: 10px;
+}
+
+.login-container input {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.login-container button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.login-container button:hover {
+  background-color: #0056b3;
+  }
+  
